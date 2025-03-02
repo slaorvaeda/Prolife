@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import {Link} from 'react-router-dom';
 import NavMenu from './NavMenu';
 import MobileMenu from './MobileMenu';
 
@@ -25,9 +26,10 @@ function Navbar(props) {
                     <div className="flex justify-around w-full">
                         <div className="flex space-x-4">
                             <div>
-                                <a href="#" className="flex items-center py-5 px-2 text-gray-700 dark:text-gray-300">
+                                
+                                <Link to="" className="flex items-center py-5 px-2 text-gray-700 dark:text-gray-300">
                                     <img src={props.logo} alt="Logo" className="md:h-10 h-6" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <NavMenu />

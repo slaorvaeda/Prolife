@@ -9,10 +9,10 @@ function AddedMain() {
 
   return (
    <>
-   <div className='md:flex'>
+   <div className='md:flex dark:bg-black'>
 
-     <div data-aos="fade-right" className='h-60 w-1/4 md:w-[49vw] border-2 border-solid p-3 bg-amber-200 m-auto'>bye</div>
-     <div className='h-60 w-1/4 md:w-[49vw] p-3 border-2 border-solid bg-amber-200 m-auto'>bye</div>
+     <div data-aos="fade-right" className='h-60 w-1/4 md:w-[49vw] border-2 border-solid p-3 bg-amber-200 m-auto rounded-xl'>bye</div>
+     <div className='h-60 w-1/4 md:w-[49vw] p-3 border-2 border-solid  m-auto text-center'>bye</div>
      <div data-aos="fade-left" className='h-60 w-1/4 md:w-[49vw] p-3 border-2 border-solid bg-amber-500 m-auto'>hello</div>
    </div>
    </>

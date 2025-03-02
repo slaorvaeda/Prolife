@@ -25,9 +25,9 @@ function FrontMain() {
               <span className='text-[rgb(44,100,163)]'> to </span>
               <span data-aos="fade-left" className='text-[rgb(200,61,43)]'>ProLife</span>
             </h1>
-            <p className="text-lg md:text-3xl">Innovative appliances for home</p>
-            <div className='border-2 rounded-[50%] h-9 w-9 md:h-12 md:w-12 bg-gray-100 m-auto md:mt-10 mt-4' onClick={handleScroll}>
-              <svg className="w-5 h-5 md:w-8 md:h-8 m-auto mt-3 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <p className="text-lg md:text-3xl text-blue-900">Innovative appliances for home</p>
+            <div className='border-2 rounded-[50%] h-9 w-9 md:h-12 md:w-12 bg-gray-100 m-auto  dark:bg-black md:mt-10 mt-4' onClick={handleScroll}>
+              <svg className="w-5 h-5 md:w-8 md:h-8 m-auto mt-3 animate-bounce dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
               </svg>
             </div>

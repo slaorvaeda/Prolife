@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import SearchBar from './SearchBar';
 import DarkToggler from './DarkToggler';
 
@@ -6,10 +7,10 @@ function NavMenu() {
     return (
         <>
             <div className="hidden md:flex items-center space-x-1 navmenu">
-                <a href="#" className="py-5 px-3 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Home</a>
-                <a href="#" className="py-5 px-3 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Product</a>
-                <a href="#" className="py-5 px-3 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">About</a>
-                <a href="#" className="py-5 px-3 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Contact</a>
+                <NavLink to="/" className="py-5 px-3 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" activeClassName="text-gray-900 dark:text-white">Home</NavLink>
+                <NavLink to="/product" className="py-5 px-3 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" activeClassName="text-gray-900 dark:text-white">Product</NavLink>
+                <NavLink to="/about" className="py-5 px-3 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" activeClassName="text-gray-900 dark:text-white">About</NavLink>
+                <NavLink to="/contact" className="py-5 px-3 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" activeClassName="text-gray-900 dark:text-white">Contact</NavLink>
                 <DarkToggler />
             </div>
 
